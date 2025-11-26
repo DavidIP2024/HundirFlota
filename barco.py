@@ -9,3 +9,7 @@ class Barco:
 
         # Golpes recibidos por el barco (empieza en 0)
         self.golpes_recibidos = 0
+
+        # Metodo que registra un impacto en el barco
+    def recibir_impacto(self):
+        self.golpes_recibidos += 1
