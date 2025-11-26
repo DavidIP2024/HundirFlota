@@ -12,3 +12,5 @@ class Tablero:
     def mostrar_tablero(self):
         for fila in self.casillas:
             print(fila)
+# Bloque de pruebas de la clase Tablero
+if __name__ == "__main__":
