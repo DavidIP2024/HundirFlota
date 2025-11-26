@@ -24,3 +24,9 @@ if __name__ == "__main__":
     submarino = Barco("Submarino", 1)
     submarino.recibir_impacto()
     print("Submarino hundido:", submarino.esta_hundido())
+
+    # Crear un buque (longitud 3)
+    buque = Barco("Buque", 3)
+    buque.recibir_impacto()
+    buque.recibir_impacto()
+    print("Buque hundido (2 impactos):", buque.esta_hundido())
