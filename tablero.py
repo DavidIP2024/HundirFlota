@@ -14,3 +14,6 @@ class Tablero:
             print(fila)
 # Bloque de pruebas de la clase Tablero
 if __name__ == "__main__":
+    # Crear un tablero 5x5
+    tablero = Tablero(5)
+    tablero.mostrar_tablero()
