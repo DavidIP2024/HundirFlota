@@ -13,3 +13,7 @@ class Barco:
         # Metodo que registra un impacto en el barco
     def recibir_impacto(self):
         self.golpes_recibidos += 1
+
+        # Metodo que comprueba si el barco está hundido
+    def esta_hundido(self):
+        return self.golpes_recibidos == self.longitud
