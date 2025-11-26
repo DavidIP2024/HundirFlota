@@ -17,3 +17,10 @@ class Barco:
         # Metodo que comprueba si el barco está hundido
     def esta_hundido(self):
         return self.golpes_recibidos == self.longitud
+
+# Bloque de pruebas de la clase Barco
+if __name__ == "__main__":
+    # Crear un submarino (longitud 1)
+    submarino = Barco("Submarino", 1)
+    submarino.recibir_impacto()
+    print("Submarino hundido:", submarino.esta_hundido())
