@@ -30,3 +30,6 @@ if __name__ == "__main__":
     buque.recibir_impacto()
     buque.recibir_impacto()
     print("Buque hundido (2 impactos):", buque.esta_hundido())
+
+    buque.recibir_impacto()
+    print("Buque hunido (3 impactos):", buque.esta_hundido())
