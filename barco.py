@@ -35,3 +35,4 @@ if __name__ == "__main__":
     print("Buque hunido (3 impactos):", buque.esta_hundido())
 
 #Comentario final
+#Comenario para el rebase
